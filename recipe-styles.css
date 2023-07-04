@@ -1,0 +1,26 @@
+* {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    background-image: url("images/italy.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.border-bot {
+    padding: 0px 20px 20px 20px;
+    border-bottom: 1px solid black;
+}
+
+li {
+    list-style-position: inside;
+}

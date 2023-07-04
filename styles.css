@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+}
+
+html {
+    background-image: url("images/italy.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 20px 0px;
+  border: 1px solid black;
+  object-fit: cover;
+}
